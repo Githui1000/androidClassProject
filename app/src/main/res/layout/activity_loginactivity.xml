@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="#ff8"
+
+
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="login"
+        android:padding="25dp"
+        android:layout_gravity="center"
+        android:textColor="#000"
+        />
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="100dp"
+        android:hint="username"
+        android:padding="20dp"
+        android:background="@drawable/editshapes"
+        />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="password"
+        android:padding="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/editshapes"
+        android:layout_marginTop="10dp"
+        />
+
+    <Button
+        android:id="@+id/btn_log"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="login"
+        android:backgroundTint="#EBB71E"
+        android:background="@drawable/editshapes"
+        android:layout_marginTop="100dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="dont have an account?"
+        android:padding="25dp"
+        android:layout_gravity="center"
+        android:textColor="#000"
+        />
+
+    <Button
+        android:id="@+id/btn_sign"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="create account"
+        android:backgroundTint="#EBB71E"
+        android:background="@drawable/editshapes"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="40dp"
+        />
+
+
+</LinearLayout>
